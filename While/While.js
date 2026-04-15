@@ -1,11 +1,10 @@
 function loop(){
     let texto = "";
-    let 1 = 0;
+    let i = 0;
 
-    do{
-        texto += "O numero é " + i + "<br>";
+    while(i <= 100000){
+        texto += "O Número é " + i + "<br>";
         i++;
-    }while (i < 10);
-
-    document.getElementById("demo").innerHTML = texto;
+    }
+    document.getElementById("demo").innerHTML= texto;
 }
